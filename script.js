@@ -6,8 +6,7 @@ function hitung1 () {
   var luas = sisi * sisi;
 
   document.getElementById("luas").textContent = luas;
-  
-  window.location.href = "index2.html?luas=" + luas;}
+}
 
   function hitung2 () {
 
@@ -17,6 +16,21 @@ function hitung1 () {
   
     document.getElementById("keliling2").textContent = keliling2;
     
-    window.location.href = "index3.html?=" + keliling2;}
+}
 
+function reset2() {
+  // Mengambil elemen paragraf
+  var keliling2 = document.getElementById("keliling2");
+
+  // Mengganti konten paragraf dengan teks kosong
+  keliling2.textContent = "0";
+}
+
+function reset1() {
+  // Mengambil elemen paragraf
+  var luas = document.getElementById("luas");
+
+  // Mengganti konten paragraf dengan teks kosong
+  luas.textContent = "0";
+}
 
