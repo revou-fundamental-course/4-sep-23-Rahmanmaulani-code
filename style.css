@@ -1,0 +1,134 @@
+body {
+    
+    background-color: whitesmoke;
+    font-family: 'Times New Romans';
+    border-radius: 5px;
+    margin: 0px;
+
+}
+Header {
+    background-color: aqua;
+    color: black;
+    box-sizing: border-box;
+    text-align: center;
+    border-width: medium;
+    border-style: solid;
+    border-color:aqua;
+    margin-left: 15%;
+    margin-right: 15%;
+    
+}   
+
+.Welcome {
+    color: black;
+    padding-top: 5%;
+}
+.Katik {
+    color: red;
+    font-size: 60px;
+}
+  
+.Kalkulator {
+    font-size: 20px;
+}
+
+.buttonpersegi {
+    
+    
+    width: 75%;
+    border-radius: 20px;
+    padding: 15px;
+    cursor: pointer;
+    margin-bottom: 2px;
+    margin-left: 0;
+    margin-right: 0;
+
+
+}
+
+.hover:hover {
+
+    background-color:  blue;
+    color: brown;
+}
+.E {
+
+    text-align: center;
+    font-size: larger;
+    border: solid;
+    border-width: 1px;
+    border-color: aqua;
+    margin-top: 3% ;
+    background-color: aqua;
+    margin: 0px;
+}
+
+#F {
+    width: 80%;
+    box-sizing: border-box;
+    text-align: left;
+
+}
+
+.H {
+
+    margin-top: 3%;
+    background-color: forestgreen;
+}
+
+.i {
+
+    margin-top: 30px;
+
+    margin-left: 85%;
+
+    background-color: yellow;
+
+    color: black;
+
+    margin-right: 20%;
+}
+
+.j {
+
+    text-align: center;
+    font-size: larger;
+    border: solid;
+    border-width: 1px;
+    border-color: aqua;
+    margin-top: 20% ;
+    background-color: 25px ;
+    background-color: aqua;
+    border-top: solid;
+}
+
+section {
+    
+    text-align: center;
+    box-sizing: content-box;
+    color: green;
+    border: none;
+    margin-top: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+    background-color: white;
+     
+}
+
+article {
+    border: solid;
+    border-color: grey;
+    border-radius: 0%;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 10%;
+}
+.luas {
+    text-align: justify;
+    margin-left: 15%;
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luas Persegi</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="Js/script.js"></script>
+
+
+</head>
+<body>
+
+    <section>
+<article>
+
+    <div class="E"><h3>Keliling Persegi</h3></div>
+    <p></p>
+
+    <img src="Persegi.jpg" alt="gambar persegi" width="200" height="200">
+
+    <h4 class="rumus"> Rumus Luas Persegi yaitu : </h4>
+    
+    <p>L= S X S</p>
+    
+    <p class="luas">Di mana :</p>
+    <p id="luas"> L= Luas </p>
+    <p id="luas"> S= Sisi </p>
+
+    <div class="G"><h5>Hasil Luas Persegi</h5></div>
+
+    <p id="keliling2"></p>
+    
+    <div><button class="i"> Reset </button></div>
+
+</article>
+
+</section>s
+
+</body>
+
+<script>
+    
+var urlParams = new URLSearchParams(window.location.search);
+    var keliling2 = urlParams.get("Keliling2");
+
+    document.getElementById("keliling2").textContent = keliling2;
+
+</script>
+
+</html>
